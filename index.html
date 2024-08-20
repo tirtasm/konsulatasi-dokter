@@ -1,0 +1,547 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tanya Dokter Yuk!</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" type="text/css" href="assets/css/slick.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/slick-theme.css" />
+    <link rel="shortcut icon" href="assets/img/logo.svg" type="image/x-icon">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="assets/css/style.css" />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-default inter-navbar bg-white fixed-top">
+      <div class="container">
+        <a class="navbar-brand" href="#">
+          <img
+            src="assets/img/tanya-dokter.svg"
+            alt="Tanya Dokter Yuk!"
+            width="150"
+          />
+        </a>
+        <button
+          class="navbar-toggler collapsed shadow-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <div class="collapse navbar-collapse text-center" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" href="">Beranda</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#tentang-kami">Tentang Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#layanan">Layanan</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#dokter-kami">Dokter Kami</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#testimoni">Testimoni</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#kontak">Kontak</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    
+    
+
+    <section class="hero-section d-flex align-items-center" id="hero">
+      <div class="container mt-4">
+        <div class="row align-items-center">
+          <div class="col-lg-6">
+            <p class="display-5 inter-bold">
+              Jaga Kesehatan Anda dengan Dukungan Medis Terbaik
+            </p>
+            <p class="lead">
+              Konsultasikan kesehatan Anda dengan dokter-dokter berpengalaman
+              kami, kapan saja dan di mana saja.
+            </p>
+            <a href="#kontak" class="btn btn-primary inter-btn"
+              >Mulai Konsultasi Sekarang</a
+            >
+          </div>
+          <div class="col-lg-6 text-center">
+            <img
+              src="assets/img/doctor1.webp"
+              class="img-fluid mt-5"
+              alt="Doctor Consultation"
+            />
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="tentang-kami">
+      <div class="container">
+        <div class="row d-flex text-center align-items-center">
+          <h2 class="inter-bold">Mengapa Kesehatan Anda Penting?</h2>
+
+          <p class="lead">
+            Karena kesehatan adalah investasi terpenting dalam hidup Anda.
+          </p>
+          <p>
+            Kesehatan merupakan aset paling berharga yang Anda miliki. Melalui
+            layankami, Anda akan mendapatkan diagnosis yang tepat, rekomendasi
+            perawatan terbaik, serta dukungan kesehatan yang berkelanjutan.
+            Investasikan kesehatan Anda hari ini untuk menikmati kualitas hidup
+            yang lebih baik di masa depan.
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <section id="layanan">
+      <div class="container text-center my-5">
+        <div class="text-center">
+          <h2 class="inter-bold">Layanan Kami</h2>
+          <p class="lead">
+            Kami menyediakan berbagai layanan kesehatan untuk memenuhi kebutuhan
+            Anda.
+          </p>
+        </div>
+
+        <div class="container mt-5">
+          <div class="row d-flex g-4 justify-content-center">
+            <div class="col-5 col-lg-3">
+              <div class="icon-box">
+                <i class="fas fa-user-md fa-2x"></i>
+                <p class="inter-medium mt-3">Konsultasi Umum</p>
+              </div>
+            </div>
+            <div class="col-5 col-lg-3">
+              <div class="icon-box">
+                <i class="fas fa-stethoscope fa-2x"></i>
+                <p class="inter-medium mt-3">Pemeriksaan Spesialis</p>
+              </div>
+            </div>
+            <div class="col-5 col-lg-3">
+              <div class="icon-box">
+                <i class="fas fa-heartbeat fa-2x"></i>
+                <p class="inter-medium mt-3">Pemeriksaan Kesehatan Rutin</p>
+              </div>
+            </div>
+            <div class="col-5 col-lg-3">
+              <div class="icon-box">
+                <i class="fas fa-utensils fa-2x"></i>
+                <p class="inter-medium mt-3">Konsultasi Gizi</p>
+              </div>
+            </div>
+            <div class="col-5 col-lg-3">
+              <div class="icon-box">
+                <i class="fas fa-eye fa-2x"></i>
+                <p class="inter-medium mt-3">Pemeriksaan Mata</p>
+              </div>
+            </div>
+            <div class="col-5 col-lg-3">
+              <div class="icon-box">
+                <i class="fas fa-tooth fa-2x"></i>
+                <p class="inter-medium mt-3">Pemeriksaan Gigi</p>
+              </div>
+            </div>
+            <div class="col-5 col-lg-3">
+              <div class="icon-box">
+                <i class="fas fa-phone-alt fa-2x"></i>
+                <p class="inter-medium mt-3">Layanan Telemedicine</p>
+              </div>
+            </div>
+            <div class="col-5 col-lg-3">
+              <div class="icon-box">
+                <i class="fas fa-user-nurse fa-2x"></i>
+                <p class="inter-medium mt-3">Perawatan Lanjut Usia</p>
+              </div>
+            </div>
+            <div class="col-5 col-lg-3">
+              <div class="icon-box">
+                <i class="fas fa-user-injured fa-2x"></i>
+                <p class="inter-medium mt-3">Manajemen Penyakit Kronis</p>
+              </div>
+            </div>
+            <div class="col-5 col-lg-3">
+              <div class="icon-box">
+                <i class="fas fa-brain fa-2x"></i>
+                <p class="inter-medium mt-3">Konseling Kesehatan Mental</p>
+              </div>
+            </div>
+            <div class="col-5 col-lg-3">
+              <div class="icon-box">
+                <i class="fas fa-users fa-2x"></i>
+                <p class="inter-medium mt-3">Program Kesehatan Keluarga</p>
+              </div>
+            </div>
+            <div class="col-5 col-lg-3">
+              <div class="icon-box">
+                <i class="fas fa-syringe fa-2x"></i>
+                <p class="inter-medium mt-3">Layanan Vaksinasi</p>
+              </div>
+            </div>
+            <div class="col-5 col-lg-3">
+              <div class="icon-box">
+                <i class="fas fa-allergies fa-2x"></i>
+                <p class="inter-medium mt-3">Konsultasi Alergi</p>
+              </div>
+            </div>
+            <div class="col-5 col-lg-3">
+              <div class="icon-box">
+                <i class="fas fa-head-side-virus fa-2x"></i>
+                <p class="inter-medium mt-3">Konsultasi Infeksi</p>
+              </div>
+            </div>
+            <div class="col-5 col-lg-3">
+              <div class="icon-box">
+                <i class="fas fa-baby fa-2x"></i>
+                <p class="inter-medium mt-3">Konsultasi Pediatri</p>
+              </div>
+            </div>
+            <div class="col-5 col-lg-3">
+              <div class="icon-box">
+                <i class="fas fa-venus-mars fa-2x"></i>
+                <p class="inter-medium mt-3">Konsultasi Kesehatan Seksual</p>
+              </div>
+            </div>
+            <div class="col-5 col-lg-3">
+              <div class="icon-box">
+                <i class="fas fa-lungs fa-2x"></i>
+                <p class="inter-medium mt-3">Konsultasi Pernapasan</p>
+              </div>
+            </div>
+            <div class="col-5 col-lg-3">
+              <div class="icon-box">
+                <i class="fas fa-bone fa-2x"></i>
+                <p class="inter-medium mt-3">Konsultasi Ortopedi</p>
+              </div>
+            </div>
+            <div class="col-5 col-lg-3">
+              <div class="icon-box">
+                <i class="fas fa-user-shield fa-2x"></i>
+                <p class="inter-medium mt-3">Konsultasi Imunologi</p>
+              </div>
+            </div>
+            <div class="col-5 col-lg-3">
+              <div class="icon-box">
+                <i class="fas fa-blind fa-2x"></i>
+                <p class="inter-medium mt-3">Konsultasi Geriatri</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="dokter-kami">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="inter-bold">Dokter Kami</h2>
+          <p class="lead">
+            Temui para ahli medis terbaik yang siap membantu Anda.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-lg-3 col-md-6 col-sm-12  ">
+            <div class="doctor-card ratio text-center text-white">
+              <div
+                class="doctor-image"
+                style="
+                  background-image: linear-gradient(
+                      180deg,
+                      rgba(255, 255, 255, 0) 59.37%,
+                      #292929 100%
+                    ),
+                    url('assets/img/doctor2.webp');
+                "
+              ></div>
+              <div class="info-doctor">
+                <div class="name">Dr. Bima Setiawan</div>
+                <div class="title">Dokter Umum</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 ">
+            <div class="doctor-card ratio text-center text-white">
+              <div
+                class="doctor-image"
+                style="
+                  background-image: linear-gradient(
+                      180deg,
+                      rgba(253, 250, 250, 0) 59.37%,
+                      #292929 100%
+                    ),
+                    url('assets/img/doctor4.webp');
+                "
+              ></div>
+              <div class="info-doctor">
+                <div class="name">Dr. Lanny Budiati</div>
+                <div class="title">Dokter Spesialis Mata</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 ">
+            <div class="doctor-card ratio text-center text-white">
+              <div
+                class="doctor-image"
+                style="
+                  background-image: linear-gradient(
+                      180deg,
+                      rgba(255, 255, 255, 0) 59.37%,
+                      #292929 100%
+                    ),
+                    url('assets/img/doctor5.webp');
+                "
+              ></div>
+              <div class="info-doctor">
+                <div class="name">Dr. Raka Wijaya</div>
+                <div class="title">Dokter Spesialis Ortopedi</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-3 col-md-6 col-sm-12 ">
+            <div class="doctor-card ratio text-center text-white">
+              <div
+                class="doctor-image"
+                style="
+                  background-image: linear-gradient(
+                      180deg,
+                      rgba(255, 255, 255, 0) 59.37%,
+                      #292929 100%
+                    ),
+                    url('assets/img/doctor3.webp');
+                "
+              ></div>
+              <div class="info-doctor">
+                <div class="name">Dr. Sari Pratiwi</div>
+                <div class="title">Dokter Spesialis Anak</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="py-5 bg-light">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="inter-bold">Apa Kata Klien Kami</h2>
+          <p class="lead">
+            Testimoni dari pasien yang telah merasakan layanan kami.
+          </p>
+        </div>
+
+        <div class="slider-container ">
+          <div class="slick-slider bg-danger rounded">
+            <div class="slider-item">
+              <div
+              class="text-center p-4 mx-auto"
+              style="max-width: 700px"
+              >
+              <img
+                src="assets/img/mahasiswa.webp"
+                alt="Klien 3"
+                class="rounded-circle mb-3"
+                style="width: 100px; height: 100px; object-fit: cover; margin: 0 auto;"
+              />
+              <h5>Siti Nurhaliza</h5>
+              <p class="text-muted">Mahasiswa</p>
+              <p class="fst-italic">
+                "Pengalaman saya dengan layanan ini sangat memuaskan.
+                Prosesnya efisien dan tim medisnya sangat responsif terhadap
+                kebutuhan saya."
+              </p>
+              <div class="star-rating">
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="fas fa-star text-warning"></i>
+                <i class="far fa-star text-warning"></i>
+              </div>
+              </div>
+            </div>
+
+            <div class="slider-item">
+              <div
+                class="testimonial-card text-center p-4 mx-auto"
+                style="max-width: 700px"
+              >
+                <img
+                  src="assets/img/pengusaha.webp"
+                  alt="Klien 2"
+                  class="rounded-circle mb-3"
+                  style="width: 100px; height: 100px; object-fit: cover; margin: 0 auto;"
+                />
+                <h5>Andri Pratama</h5>
+                <p class="text-muted">Wirausahawan</p>
+                <p class="fst-italic">
+                  "Layanan yang diberikan sangat profesional dan penuh
+                  perhatian. Saya merasa sangat terbantu dengan solusi yang
+                  disediakan oleh tim medis."
+                </p>
+                <div class="star-rating">
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                </div>
+              </div>
+            </div>
+            <div class="slider-item">
+              <div
+                class="testimonial-card text-center p-4 mx-auto"
+                style="max-width: 700px"
+              >
+                <img
+                  src="assets/img/pengusaha1.webp"
+                  alt="Klien 2"
+                  class="rounded-circle mb-3"
+                  style="width: 100px; height: 100px; object-fit: cover; margin: 0 auto;"
+                />
+                <h5>Rudi Saputra</h5>
+                <p class="text-muted">Wirausahawan</p>
+                <p class="fst-italic">
+                  "Dokter sangat memperhatikan dan memberikan penjelasan yang
+                  jelas serta mudah dimengerti. Layanan ini sangat saya
+                  rekomendasikan."
+                </p>
+                <div class="star-rating">
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                  <i class="fas fa-star text-warning"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="arrow">
+            <button class="slick-prev ms-4">
+              <img src="assets/img/arrow-left.svg" alt="Previous" />
+            </button>
+            <button class="slick-next me-5">
+              <img src="assets/img/arrow-right.svg" alt="Next" />
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="kontak" class="py-5">
+      <div class="container">
+        <div class="text-center mb-5">
+          <h2 class="inter-bold">Hubungi Kami</h2>
+          <p class="lead">
+            Jika Anda memiliki pertanyaan atau butuh bantuan, jangan ragu untuk
+            menghubungi kami.
+          </p>
+        </div>
+        <div class="row">
+          <div class="col-lg-6 mb-4">
+            <form>
+              <div class="mb-3">
+                <label for="email" class="form-label">Email Anda</label>
+                <input
+                  type="email"
+                  class="form-control"
+                  id="email"
+                  placeholder="Masukkan email Anda"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="subject" class="form-label">Subjek</label>
+                <input
+                  type="text"
+                  class="form-control"
+                  id="subject"
+                  placeholder="Masukkan subjek pesan"
+                />
+              </div>
+              <div class="mb-3">
+                <label for="message" class="form-label">Pesan Anda</label>
+                <textarea
+                  class="form-control"
+                  id="message"
+                  rows="5"
+                  placeholder="Tulis pesan Anda di sini"
+                ></textarea>
+              </div>
+              <button type="submit" class="btn btn-primary">Kirim Pesan</button>
+            </form>
+          </div>
+          <div class="col-lg-6">
+            <div class="contact-info">
+              <h5>Informasi Kontak</h5>
+              <p><i class="fas fa-map-marker-alt me-2"></i>Jl. Jakarta</p>
+              <p><i class="fas fa-envelope me-2"></i>email@example.com</p>
+              <p><i class="fas fa-phone me-2"></i>08123456789</p>
+              <h5 class="mt-4">Lokasi Kami</h5>
+              <div class="map-responsive">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18... (link peta Anda)"
+                  width="100%"
+                  height="250"
+                  frameborder="0"
+                  style="border: 0"
+                  allowfullscreen=""
+                  aria-hidden="false"
+                  tabindex="0"
+                ></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="py-4 bg-dark text-white">
+      <div class="container text-center">
+        <p>&copy; 2023 Tanya Dokter Yuk! All rights reserved.</p>
+        <div>
+          <a href="#" class="text-white me-3"
+            ><i class="fab fa-facebook-f"></i
+          ></a>
+          <a href="#" class="text-white me-3"><i class="fab fa-twitter"></i></a>
+          <a href="#" class="text-white me-3"
+            ><i class="fab fa-instagram"></i
+          ></a>
+          <a href="#" class="text-white"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+      </div>
+    </footer>
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
+<script type="text/javascript" src="assets/js/jquery.min.js"></script>
+    <script type="text/javascript" src="assets/js/slick.min.js"></script>
+<script>
+  $(document).ready(function () {
+    $(".slick-slider").slick({
+      infinite: true,
+      slidesToShow: 1,
+      slidesToScroll: 1,
+      prevArrow: $(".slick-prev"),
+      nextArrow: $(".slick-next"),
+    });
+  });
+</script>
